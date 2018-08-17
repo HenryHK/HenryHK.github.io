@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>lhan&#39;s blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lhan.me/"/>
+  <updated>2018-08-17T05:33:49.992Z</updated>
+  <id>http://lhan.me/</id>
+  
+  <author>
+    <name>lhan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Ubuntu Configuration</title>
+    <link href="http://lhan.me/2017/09/28/My-Ubuntu-Configuration/"/>
+    <id>http://lhan.me/2017/09/28/My-Ubuntu-Configuration/</id>
+    <published>2017-09-28T07:27:25.000Z</published>
+    <updated>2018-08-17T05:33:49.992Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;This article aims to backup my configuration on Ubuntu.&lt;/p&gt;
+&lt;p&gt;This may also helps you to make Ubuntu elegant for use.&lt;/p&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Ubuntu" scheme="http://lhan.me/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Writing LaTex on Ubuntu using VSCode</title>
+    <link href="http://lhan.me/2017/09/28/Writing-LaTex-on-Ubuntu-using-VSCode/"/>
+    <id>http://lhan.me/2017/09/28/Writing-LaTex-on-Ubuntu-using-VSCode/</id>
+    <published>2017-09-28T06:21:51.000Z</published>
+    <updated>2018-08-17T05:33:49.992Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;LaTex&lt;/strong&gt; is one of the best thing I’ve learned ever (another is markdown). It’s really a ease for me to concentrate myself
+        
+      
+    
+    </summary>
+    
+    
+      <category term="LaTex" scheme="http://lhan.me/tags/LaTex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Back to GitHub Pages</title>
+    <link href="http://lhan.me/2017/09/28/Back-to-GitHub-Pages/"/>
+    <id>http://lhan.me/2017/09/28/Back-to-GitHub-Pages/</id>
+    <published>2017-09-28T03:58:10.000Z</published>
+    <updated>2018-08-17T05:33:49.992Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I’m back to GitHub Pages.&lt;/p&gt;
+&lt;p&gt;I have to admit that GitHub Pages is the best choice to host a site for purely
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
