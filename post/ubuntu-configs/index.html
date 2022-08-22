@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready text-sm lg:text-base"
+  style="--bg: #faf6f1"
+  lang=""
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>My Ubuntu Configuration - Lin Han&#39;s Blog</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="This article aims to backup my configuration on Ubuntu.
+This may also helps you to make Ubuntu elegant for use.
+Shell Terminator Terminator is a terminal emulator allows multiple custom configurations, including separating windows, lots of shortcuts, and etc.
+Install sudo apt-get update sudo apt-get install terminator Another great choice is Guake. But you can set Terminator behave the same way as Guake by shortcuts.
+zsh and oh-my-zsh Previously I use fish, which is super powerful in auto-suggestion and syntax-highlighting, and it&rsquo;s easy to use even without complicated configuration." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://lhan.quest/main.min.css" />
+
+  
+
+  
+  
+  
+    
+  
+  <link
+    rel="preload"
+    as="image"
+    href="https://lhan.quest/theme.png"
+  />
+
+  
+  
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/a46e0e30ae1966affee39a404bf9a854?s=160&amp;d=identicon" />
+  
+  
+
+  
+  <link rel="preload" as="image" href="https://lhan.quest/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://lhan.quest/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://lhan.quest/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="My Ubuntu Configuration" />
+<meta property="og:description" content="This article aims to backup my configuration on Ubuntu.
+This may also helps you to make Ubuntu elegant for use.
+Shell Terminator Terminator is a terminal emulator allows multiple custom configurations, including separating windows, lots of shortcuts, and etc.
+Install sudo apt-get update sudo apt-get install terminator Another great choice is Guake. But you can set Terminator behave the same way as Guake by shortcuts.
+zsh and oh-my-zsh Previously I use fish, which is super powerful in auto-suggestion and syntax-highlighting, and it&rsquo;s easy to use even without complicated configuration." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lhan.quest/post/ubuntu-configs/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2017-09-28T17:27:25+00:00" />
+<meta property="article:modified_time" content="2017-09-28T17:27:25+00:00" />
+
+
+  
+  <meta itemprop="name" content="My Ubuntu Configuration">
+<meta itemprop="description" content="This article aims to backup my configuration on Ubuntu.
+This may also helps you to make Ubuntu elegant for use.
+Shell Terminator Terminator is a terminal emulator allows multiple custom configurations, including separating windows, lots of shortcuts, and etc.
+Install sudo apt-get update sudo apt-get install terminator Another great choice is Guake. But you can set Terminator behave the same way as Guake by shortcuts.
+zsh and oh-my-zsh Previously I use fish, which is super powerful in auto-suggestion and syntax-highlighting, and it&rsquo;s easy to use even without complicated configuration."><meta itemprop="datePublished" content="2017-09-28T17:27:25+00:00" />
+<meta itemprop="dateModified" content="2017-09-28T17:27:25+00:00" />
+<meta itemprop="wordCount" content="505">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My Ubuntu Configuration"/>
+<meta name="twitter:description" content="This article aims to backup my configuration on Ubuntu.
+This may also helps you to make Ubuntu elegant for use.
+Shell Terminator Terminator is a terminal emulator allows multiple custom configurations, including separating windows, lots of shortcuts, and etc.
+Install sudo apt-get update sudo apt-get install terminator Another great choice is Guake. But you can set Terminator behave the same way as Guake by shortcuts.
+zsh and oh-my-zsh Previously I use fish, which is super powerful in auto-suggestion and syntax-highlighting, and it&rsquo;s easy to use even without complicated configuration."/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href="https://lhan.quest"
+      >Lin Han&#39;s Blog</a
+    >
+    <a
+      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+    ></a>
+  </div>
+
+  <a
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
+
+  
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = `"#faf6f1"`.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkVal = localStorage.getItem('dark');
+    setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href=" https://github.com/HenryHK "
+        target="_blank"
+      ></a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">My Ubuntu Configuration</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Sep 28, 2017</time>
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>This article aims to backup my configuration on Ubuntu.</p>
+<p>This may also helps you to make Ubuntu elegant for use.</p>
+<h3 id="shell">Shell</h3>
+<h4 id="terminator">Terminator</h4>
+<p>Terminator is a terminal emulator allows multiple custom configurations, including separating windows, lots of shortcuts, and etc.</p>
+<ul>
+<li>Install</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt-get update
+</span></span><span style="display:flex;"><span>sudo apt-get install terminator
+</span></span></code></pre></div><p>Another great choice is <a href="https://github.com/Guake/guake">Guake</a>. But you can set Terminator behave the same way as <code>Guake</code> by shortcuts.</p>
+<h4 id="zsh-and-oh-my-zsh">zsh and oh-my-zsh</h4>
+<p>Previously I use <a href="https://fishshell.com/"><strong>fish</strong></a>, which is super powerful in auto-suggestion and syntax-highlighting, and it&rsquo;s easy to use even without complicated configuration. But it may encounter some problem because it&rsquo;s not compatible with traditional bash scripts.</p>
+<p>Luckily I got <a href="http://www.zsh.org/"><strong>zsh</strong></a>. With <a href="http://ohmyz.sh/">oh-my-zsh</a>, it&rsquo;s even easier to get it&rsquo;s work pretty and smoothly.</p>
+<h5 id="install-zsh">Install zsh:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt install zsh
+</span></span></code></pre></div><h5 id="install-oh-my-zsh">Install oh-my-zsh:</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><h5 id="configure-zsh">Configure zsh:</h5>
+<p>Below is my <code>.zshrc</code> file, or you can customize it as you wish. But, the theme <code>ys</code> is gorgeous!</p>
+<p>For plugins, <code>zsh-autosuggestions</code> and <code>zsh-syntax-highlighting</code> requires extra installation. Simply clone the repos into <code>~/.oh-my-zsh/plugins</code>.</p>
+<p>You can find my <a href="https://github.com/HenryHK/ubuntu-configs-backup/blob/master/.zshrc.backup">.zshrc</a> file here.</p>
+<p>reopen your shell (or <code>source .zshrc</code>)and then it should work.</p>
+<h3 id="install-jdk-node-and-all-kinds-of-environments-and-softwares">Install JDK, Node, and all kinds of environments and softwares</h3>
+<p>When I&rsquo;m a newbee of Linux, I install almost everything into &lsquo;su&rsquo; folders, which leads to lots of problems later.</p>
+<p>So there should be a bottom line in every Linux user&rsquo;s mind that all applications or activities in Linux should be granted the proper rights.</p>
+<p>Because I only want to set up environments for my personal usage, I create two folders under my user directory which is <code>/home/lhan/environments</code> and <code>/home/lhan/softwares</code>. This is pretty since I never need to do <code>sudo ./studio.sh</code> to make my android studio running or do <code>sudo ./idea.sh</code> to update my IntelliJ.</p>
+<p>For node installation, <code>nvm</code> is my only recommendation.</p>
+<p>Also, there are some pretty good software on Ubuntu to make it a good OS:</p>
+<ul>
+<li>
+<p><a href="https://music.163.com/#/download">网易云音乐 - NetEase CloudMusic</a></p>
+</li>
+<li>
+<p><a href="https://www.videolan.org/">VLC - media player</a> or simply <code>sudo apt-get install vlc</code></p>
+</li>
+<li>
+<p><a href="https://github.com/oguzhaninan/Stacer">Stacer - system monitor and cleaner</a></p>
+</li>
+<li>
+<p><a href="https://code.visualstudio.com/">Visual Studio Code - the editor that I love most</a></p>
+</li>
+<li>
+<p><a href="https://www.dropbox.com/install-linux">Dropbox - ross-platform cloud storage</a></p>
+</li>
+<li>
+<p><a href="http://linrunner.de/en/tlp/tlp.html">tlp - power management for linux</a></p>
+</li>
+<li>
+<p><a href="https://fcitx-im.org/wiki/Special:MyLanguage/Fcitx">fcitx - input method framework supporting many Chinese input methods</a></p>
+</li>
+<li>
+<p><a href="https://github.com/albertlauncher/albert">albert - A spotlight-like software on Linux</a> (P.S. if you are using Ubuntu, you may need CompizConfig Settings Manager in order to diable <code>alt</code> related hotkeys to use <code>alt+space</code> shortcuts for calling albert)</p>
+</li>
+</ul>
+<p>All the above software can be easily installed and requires few configurations.</p>
+<p>If you encounter any dependency problems when install <code>.deb</code>, try the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo dpkg -i name_of_package.deb
+</span></span><span style="display:flex;"><span>sudo apt-get install -f
+</span></span></code></pre></div><p>This will resolves dependencies problems automatically.</p>
+<h3 id="themes-icons-and-fonts">Themes, Icons, and Fonts</h3>
+<h4 id="themes--icons">Themes &amp; Icons</h4>
+<p>I use <a href="https://github.com/anmoljagetia/Flatabulous">Flatabulous</a> theme. This is gorgeous and is perfect in my 15.6&rsquo; 3k resolution display. As for icons, I use <code>ultra-flat-icons</code> as recommended by the author of <code>Flatabulous</code>.</p>
+<h4 id="fonts">Fonts</h4>
+<p>For fonts, as I use Simplified Chinese and English in my daily life, <a href="https://www.google.com/get/noto/">noto fonts</a> is the best choice. When it comes to programming, I use <a href="https://github.com/adobe-fonts/source-code-pro">Source Code Pro</a>.</p>
+<hr>
+<h3 id="screenshots">Screenshots</h3>
+<p><img src="img/screenshot.png" alt="screenshots"></p>
+<p><img src="img/terminator-screenshot.png" alt="terminator"></p>
+<p><img src="img/editor-screenshot.png" alt="editor"></p>
+</section>
+
+  
+  
+
+  
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60">
+  <div class="mr-auto">
+    &copy; 2022
+    <a class="link" href="https://lhan.quest">Lin Han&#39;s Blog</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo️️</a
+  >️
+  <a class="link" href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank"
+    >▷ Paper 6</a
+  >
+</footer>
+
+  </body>
+</html>
