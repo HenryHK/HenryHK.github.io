@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lhan.quest/tags/configurations/</loc>
+    <lastmod>2017-09-28T17:27:25+00:00</lastmod>
+  </url><url>
     <loc>https://lhan.quest/</loc>
+    <lastmod>2017-09-28T17:27:25+00:00</lastmod>
+  </url><url>
+    <loc>https://lhan.quest/tags/linux/</loc>
     <lastmod>2017-09-28T17:27:25+00:00</lastmod>
   </url><url>
     <loc>https://lhan.quest/post/ubuntu-configs/</loc>
@@ -11,10 +17,16 @@
     <loc>https://lhan.quest/post/</loc>
     <lastmod>2017-09-28T17:27:25+00:00</lastmod>
   </url><url>
+    <loc>https://lhan.quest/tags/</loc>
+    <lastmod>2017-09-28T17:27:25+00:00</lastmod>
+  </url><url>
+    <loc>https://lhan.quest/tags/ubuntu/</loc>
+    <lastmod>2017-09-28T17:27:25+00:00</lastmod>
+  </url><url>
     <loc>https://lhan.quest/about/</loc>
   </url><url>
     <loc>https://lhan.quest/categories/</loc>
   </url><url>
-    <loc>https://lhan.quest/tags/</loc>
+    <loc>https://lhan.quest/series/</loc>
   </url>
 </urlset>

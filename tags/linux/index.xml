@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lin Han&#39;s Blog</title>
-    <link>https://lhan.quest/</link>
-    <description>Recent content on Lin Han&#39;s Blog</description>
+    <title>linux on Lin Han&#39;s Blog</title>
+    <link>https://lhan.quest/tags/linux/</link>
+    <description>Recent content in linux on Lin Han&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Sep 2017 17:27:25 +0000</lastBuildDate><atom:link href="https://lhan.quest/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Sep 2017 17:27:25 +0000</lastBuildDate><atom:link href="https://lhan.quest/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Ubuntu Configuration</title>
       <link>https://lhan.quest/post/ubuntu-configs/</link>
@@ -18,17 +18,6 @@ This may also helps you to make Ubuntu elegant for use.
 Shell Terminator Terminator is a terminal emulator allows multiple custom configurations, including separating windows, lots of shortcuts, and etc.
 Install sudo apt-get update sudo apt-get install terminator Another great choice is Guake. But you can set Terminator behave the same way as Guake by shortcuts.
 zsh and oh-my-zsh Previously I use fish, which is super powerful in auto-suggestion and syntax-highlighting, and it&amp;rsquo;s easy to use even without complicated configuration.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://lhan.quest/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lhan.quest/about/</guid>
-      <description>Hello, World! G&amp;rsquo;day! Welcome to my blog! My name is Lin Han, a software engineer based in Sydney.
-This blog is meant to share my experience/configurations/opinions about everything technology.
-Happy hacking :)</description>
     </item>
     
   </channel>
