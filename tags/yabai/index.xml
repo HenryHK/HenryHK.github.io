@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Yabai on Lin Han&#39;s Blog</title>
+    <link>https://lhan.quest/tags/yabai/</link>
+    <description>Recent content in Yabai on Lin Han&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lhan.quest/tags/yabai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yabai - Tiling Window Manager for MacOS</title>
+      <link>https://lhan.quest/post/yabai/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lhan.quest/post/yabai/</guid>
+      <description>Why and how I choose to use yabai and how I configure it (skip to configurations if that&amp;rsquo;s what you&amp;rsquo;re looking for).
+The reason for me to use Tiling Window Manager on MacOS is simple:
+It&amp;rsquo;s cool
+MacOS default window management is so bad
+I can use keyboard for everything as much as I can
+Admit it or not, making it possible to keep hands on keyboard as much as possible is a way to improve your workflow efficiency - more shortcuts, faster context switching, and less time wasted on finding your cursor and clicking here and there (espcially when you have to use bluetooth mouse sometimes, yes it&amp;rsquo;s Logitech MX master and I really hate it).</description>
+    </item>
+    
+  </channel>
+</rss>

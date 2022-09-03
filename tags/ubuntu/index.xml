@@ -5,11 +5,21 @@
     <link>https://lhan.quest/tags/ubuntu/</link>
     <description>Recent content in ubuntu on Lin Han&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Sep 2017 17:27:25 +0000</lastBuildDate><atom:link href="https://lhan.quest/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lhan.quest/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dotfile management using chezmoi</title>
+      <link>https://lhan.quest/post/dotfile-management/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lhan.quest/post/dotfile-management/</guid>
+      <description>Managing dotfiels is one of the most common things in developers&amp;rsquo; life. And in my opinion, changes in dotfiles, especially those improvements over time, is the best self-teaching and the most rewarding experience as a dev.
+Bare Git repo https://www.atlassian.com/git/tutorials/dotfiles </description>
+    </item>
+    
     <item>
       <title>My Ubuntu Configuration</title>
       <link>https://lhan.quest/post/ubuntu-configs/</link>
-      <pubDate>Thu, 28 Sep 2017 17:27:25 +0000</pubDate>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://lhan.quest/post/ubuntu-configs/</guid>
       <description>This article aims to backup my configuration on Ubuntu.

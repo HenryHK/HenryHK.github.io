@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Lin Han&#39;s Blog</title>
-    <link>https://lhan.quest/</link>
-    <description>Recent content on Lin Han&#39;s Blog</description>
+    <title>macos on Lin Han&#39;s Blog</title>
+    <link>https://lhan.quest/tags/macos/</link>
+    <description>Recent content in macos on Lin Han&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lhan.quest/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lhan.quest/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yabai - Tiling Window Manager for MacOS</title>
       <link>https://lhan.quest/post/yabai/</link>
@@ -28,30 +28,6 @@ Admit it or not, making it possible to keep hands on keyboard as much as possibl
       <guid>https://lhan.quest/post/dotfile-management/</guid>
       <description>Managing dotfiels is one of the most common things in developers&amp;rsquo; life. And in my opinion, changes in dotfiles, especially those improvements over time, is the best self-teaching and the most rewarding experience as a dev.
 Bare Git repo https://www.atlassian.com/git/tutorials/dotfiles </description>
-    </item>
-    
-    <item>
-      <title>My Ubuntu Configuration</title>
-      <link>https://lhan.quest/post/ubuntu-configs/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lhan.quest/post/ubuntu-configs/</guid>
-      <description>This article aims to backup my configuration on Ubuntu.
-This may also helps you to make Ubuntu elegant for use.
-Shell Terminator Terminator is a terminal emulator allows multiple custom configurations, including separating windows, lots of shortcuts, and etc.
-Install sudo apt-get update sudo apt-get install terminator Another great choice is Guake. But you can set Terminator behave the same way as Guake by shortcuts.
-zsh and oh-my-zsh Previously I use fish, which is super powerful in auto-suggestion and syntax-highlighting, and it&amp;rsquo;s easy to use even without complicated configuration.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://lhan.quest/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lhan.quest/about/</guid>
-      <description>Hello, World! G&amp;rsquo;day! Welcome to my blog! My name is Lin Han, a software engineer based in Sydney.
-This blog is meant to share my experience/configurations/opinions about everything technology.
-Happy hacking :)</description>
     </item>
     
   </channel>
