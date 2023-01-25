@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Linux on Lin Han&#39;s Blog</title>
+    <title>linux on Lin Han&#39;s Blog</title>
     <link>https://lhan.quest/tags/linux/</link>
-    <description>Recent content in Linux on Lin Han&#39;s Blog</description>
+    <description>Recent content in linux on Lin Han&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://lhan.quest/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lhan.quest/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dotfile management using chezmoi</title>
+      <link>https://lhan.quest/post/dotfile-management/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lhan.quest/post/dotfile-management/</guid>
+      <description>Managing dotfiels is one of the most common things in developers&amp;rsquo; life. And in my opinion, changes in dotfiles, especially those improvements over time, is the best self-teaching and the most rewarding experience as a dev.
+Bare Git repo https://www.atlassian.com/git/tutorials/dotfiles </description>
+    </item>
+    
     <item>
       <title>My Ubuntu Configuration</title>
       <link>https://lhan.quest/post/ubuntu-configs/</link>
